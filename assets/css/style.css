@@ -29,6 +29,10 @@ body {
   margin: auto;
   padding: 3rem;
 }
+
+img {
+  max-width: 100%;
+}
 /* #endregion Common */
 
 /* #region Utility Classes */
