@@ -14,6 +14,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: var(--zoom-dark);
+  color: var(--zoom-light);
+}
+
+.container {
+  width: 90%;
+  max-width: 1152px;
+  margin: auto;
+}
 /* #endregion Common */
 
 /* #region Utility Classes */
@@ -21,7 +32,23 @@
 
 /* #region Header */
 /* #endregion Header */
+.content {
+  justify-content: end;
+  margin: 0.5rem;
+}
 
+.content, .speaker_view {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.speaker_view,
+.maximize {
+  background: rgba(255, 255, 255, 0.37);
+  padding: 0.4rem;
+  /* z-index: 1000; */
+  border-radius: 0.5rem;
+}
 /* #region Main */
 /* #endregion Main */
 
