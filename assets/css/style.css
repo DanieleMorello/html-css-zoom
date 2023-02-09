@@ -1,0 +1,31 @@
+/* #region Common */
+/* Root */
+:root
+{
+  --zoom-light: #f7f8f8;
+  --zoom-ligher: #ffffff;
+  --zoom-dark: #051930;
+}
+
+/* CSS RESET */
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* #endregion Common */
+
+/* #region Utility Classes */
+/* #endregion Utility Classes */
+
+/* #region Header */
+/* #endregion Header */
+
+/* #region Main */
+/* #endregion Main */
+
+/* #region Footer */
+/* #endregion Footer */
+
+
