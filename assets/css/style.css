@@ -5,6 +5,9 @@
   --zoom-light: #f7f8f8;
   --zoom-ligher: #ffffff;
   --zoom-dark: #051930;
+  --zoom-footer: #222222;
+  --zoom-share: #4ccb00;
+  --zoom-user-bg: #0000005e;
 }
 
 /* CSS RESET */
@@ -24,10 +27,19 @@ body {
   width: 90%;
   max-width: 1152px;
   margin: auto;
+  padding: 3rem;
 }
 /* #endregion Common */
 
 /* #region Utility Classes */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-7 {
+  width: calc(100% / 7);
+}
 /* #endregion Utility Classes */
 
 /* #region Header */
@@ -35,6 +47,11 @@ body {
 .content {
   justify-content: end;
   margin: 0.5rem;
+}
+
+.speaker_view {
+  display: flex;
+  gap: 0.5rem;
 }
 
 .content, .speaker_view {
@@ -50,9 +67,69 @@ body {
   border-radius: 0.5rem;
 }
 /* #region Main */
+.card {
+  position: relative;
+} 
+
+.photo {
+  position: relative;
+}
+
+.user {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: var(--zoom-user-bg);
+  padding: 0.4rem;
+  display: flex;
+  gap: .5em;
+}
+
+.user > .microphone,
+.user > .name {
+  font-size: 0.8rem;
+}
 /* #endregion Main */
 
 /* #region Footer */
+footer  {
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
+  align-items: center;
+  margin: .5rem;
+  padding: 1rem;
+  background-color: var(--zoom-footer);
+}
+
+.icon-left, 
+.icon-right {
+  display: flex;
+  gap: 1rem;
+}
+
+#share {
+  color: var(--zoom-share);
+}
+
+#arrow-top {
+  font-size: 9px;
+}
+
+.font-size-9 {
+  font-size: 9px;
+}
+
+footer div {
+  margin-top: .5rem;
+}
+
+.end-meeting {
+  background-color: #4a4a4a;
+  color: #ff0000;
+  padding: 1.5rem;
+  margin: -1rem;
+}
 /* #endregion Footer */
 
 
