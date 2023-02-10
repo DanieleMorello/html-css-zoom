@@ -104,6 +104,10 @@ footer  {
   margin: .5rem;
   padding: 1rem;
   background-color: var(--zoom-footer);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 .icon-left, 
