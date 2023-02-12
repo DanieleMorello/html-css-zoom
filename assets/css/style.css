@@ -47,6 +47,9 @@ img {
 /* #endregion Utility Classes */
 
 /* #region Header */
+#app-header {
+  height: 50px;
+}
 /* #endregion Header */
 .content {
   justify-content: end;
