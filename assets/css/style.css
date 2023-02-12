@@ -51,6 +51,10 @@ img {
   height: 50px;
 }
 /* #endregion Header */
+#app-main {
+  height: calc(100vh - 120px);
+  overflow-y: auto;
+}
 .content {
   justify-content: end;
   margin: 0.5rem;
