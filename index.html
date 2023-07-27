@@ -1,814 +1,689 @@
 <!DOCTYPE html>
 <html lang="it">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Zoom</title>
 
-        <!-- FONT-AWESOME -->
-        <link
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
-            rel="stylesheet">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Zoom</title>
 
-        <!-- STYLE CSS -->
-        <link rel="stylesheet" href="./assets/css/style.css">
-    </head>
-    <body>
-        <header id="app-header">
-            <div class="content">
-                <div class="speaker_view">
-                    <div>
-                        <i class="fa-solid fa-table-cells"></i>
-                    </div>
+	<!-- FONT-AWESOME -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+		integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+		crossorigin="anonymous" referrerpolicy="no-referrer">
 
-                    <div>
-                        SpeakerView
-                    </div>
-                </div>
-                <!-- /.speaker_view -->
+	<!-- STYLE CSS -->
+	<link rel="stylesheet" href="./assets/css/style.css">
+</head>
 
-                <div class="maximize">
-                    <i class="fa-solid fa-maximize"></i>
-                </div>
-                <!-- /.maximize-->
-            </div>
-            <!-- /.content -->
-        </header>
-        <!-- /.header -->
+<body>
+	<header id="app-header">
+		<div class="content">
+			<div class="speaker_view">
+				<div>
+					<i class="fa-solid fa-table-cells"></i>
+				</div>
+				<div>SpeakerView</div>
+			</div>
+			<!-- /.speaker_view -->
+			<div class="maximize">
+				<i class="fa-solid fa-maximize"></i>
+			</div>
+			<!-- /.maximize-->
+		</div>
+		<!-- /.content -->
+	</header>
+	<!-- /.header -->
 
-        <main id="app-main">
-            <div class="container">
-                <div class="row">
-                    <div class="col-6">
-                        <div class="card">
-                            <div class="content">
-                                <div class="photo">
-                                    <img class="img-random"
-                                        src="https://picsum.photos/800/500"
-                                        alt="Random photo">
-                                    <div class="user d-flex gap-05">
-                                        <div class="microphone">
-                                            <i
-                                                class="fa-solid fa-microphone-slash"></i>
-                                        </div>
-                                        <!-- /.microphone -->
-                                        <div class="name">
-                                            Pinco pallo
-                                        </div>
-                                        <!-- /.name -->
-                                    </div>
-                                    <!-- /.user -->
-                                </div>
-                                <!-- /.photo -->
-                            </div>
-                            <!-- /.content -->
-                        </div>
-                        <!-- /.card -->
-                    </div>
-                    <!-- /.col-6 -->
+	<main id="app-main">
+		<div class="container">
+			<div class="row">
+				<div class="col-6">
+					<div class="card">
+						<div class="content">
+							<div class="photo">
+								<img class="img-random" src="https://picsum.photos/800/500" alt="Random photo">
+								<div class="user d-flex gap-05">
+									<div class="microphone">
+										<i class="fa-solid fa-microphone-lines-slash"></i>
+									</div>
+									<!-- /.microphone -->
+									<div class="name">Pinco pallo</div>
+									<!-- /.name -->
+								</div>
+								<!-- /.user -->
+							</div>
+							<!-- /.photo -->
+						</div>
+						<!-- /.content -->
+					</div>
+					<!-- /.card -->
+				</div>
+				<!-- /.col-6 -->
 
-                    <div class="col-6">
-                        <div class="card">
-                            <div class="content">
-                                <div class="photo">
-                                    <img class="img-random"
-                                        src="https://picsum.photos/800/500"
-                                        alt="Random photo">
-                                    <div class="user d-flex gap-05">
-                                        <div class="microphone">
-                                            <i
-                                                class="fa-solid fa-microphone-slash"></i>
-                                        </div>
-                                        <!-- /.microphone -->
-                                        <div class="name">
-                                            Pinco pallo
-                                        </div>
-                                        <!-- /.name -->
-                                    </div>
-                                    <!-- /.user -->
-                                </div>
-                                <!-- /.photo -->
-                            </div>
-                            <!-- /.content -->
-                        </div>
-                        <!-- /.card -->
-                    </div>
-                    <!-- /.col-6 -->
+				<div class="col-6">
+					<div class="card">
+						<div class="content">
+							<div class="photo">
+								<img class="img-random" src="https://picsum.photos/800/500" alt="Random photo">
+								<div class="user d-flex gap-05">
+									<div class="microphone">
+										<i class="fa-solid fa-microphone-slash"></i>
+									</div>
+									<!-- /.microphone -->
+									<div class="name">Pinco pallo</div>
+									<!-- /.name -->
+								</div>
+								<!-- /.user -->
+							</div>
+							<!-- /.photo -->
+						</div>
+						<!-- /.content -->
+					</div>
+					<!-- /.card -->
+				</div>
+				<!-- /.col-6 -->
 
-                    <div class="col-6">
-                        <div class="card">
-                            <div class="content">
-                                <div class="photo">
-                                    <img class="img-random"
-                                        src="https://picsum.photos/800/500"
-                                        alt="Random photo">
-                                    <div class="user d-flex gap-05">
-                                        <div class="microphone">
-                                            <i
-                                                class="fa-solid fa-microphone-slash"></i>
-                                        </div>
-                                        <!-- /.microphone -->
-                                        <div class="name">
-                                            Pinco pallo
-                                        </div>
-                                        <!-- /.name -->
-                                    </div>
-                                    <!-- /.user -->
-                                </div>
-                                <!-- /.photo -->
-                            </div>
-                            <!-- /.content -->
-                        </div>
-                        <!-- /.card -->
-                    </div>
-                    <!-- /.col-6 -->
+				<div class="col-6">
+					<div class="card">
+						<div class="content">
+							<div class="photo">
+								<img class="img-random" src="https://picsum.photos/800/500" alt="Random photo">
+								<div class="user d-flex gap-05">
+									<div class="microphone">
+										<i class="fa-solid fa-microphone-slash"></i>
+									</div>
+									<!-- /.microphone -->
+									<div class="name">Pinco pallo</div>
+									<!-- /.name -->
+								</div>
+								<!-- /.user -->
+							</div>
+							<!-- /.photo -->
+						</div>
+						<!-- /.content -->
+					</div>
+					<!-- /.card -->
+				</div>
+				<!-- /.col-6 -->
 
-                    <div class="col-6">
-                        <div class="card">
-                            <div class="content">
-                                <div class="photo">
-                                    <img class="img-random"
-                                        src="https://picsum.photos/800/500"
-                                        alt="Random photo">
-                                    <div class="user d-flex gap-05">
-                                        <div class="microphone">
-                                            <i
-                                                class="fa-solid fa-microphone-slash"></i>
-                                        </div>
-                                        <!-- /.microphone -->
-                                        <div class="name">
-                                            Pinco pallo
-                                        </div>
-                                        <!-- /.name -->
-                                    </div>
-                                    <!-- /.user -->
-                                </div>
-                                <!-- /.photo -->
-                            </div>
-                            <!-- /.content -->
-                        </div>
-                        <!-- /.card -->
-                    </div>
-                    <!-- /.col-6 -->
+				<div class="col-6">
+					<div class="card">
+						<div class="content">
+							<div class="photo">
+								<img class="img-random" src="https://picsum.photos/800/500" alt="Random photo">
+								<div class="user d-flex gap-05">
+									<div class="microphone">
+										<i class="fa-solid fa-microphone-slash"></i>
+									</div>
+									<!-- /.microphone -->
+									<div class="name">Pinco pallo</div>
+									<!-- /.name -->
+								</div>
+								<!-- /.user -->
+							</div>
+							<!-- /.photo -->
+						</div>
+						<!-- /.content -->
+					</div>
+					<!-- /.card -->
+				</div>
+				<!-- /.col-6 -->
 
-                    <div class="col-6">
-                        <div class="card">
-                            <div class="content">
-                                <div class="photo">
-                                    <img class="img-random"
-                                        src="https://picsum.photos/800/500"
-                                        alt="Random photo">
-                                    <div class="user d-flex gap-05">
-                                        <div class="microphone">
-                                            <i
-                                                class="fa-solid fa-microphone-slash"></i>
-                                        </div>
-                                        <!-- /.microphone -->
-                                        <div class="name">
-                                            Pinco pallo
-                                        </div>
-                                        <!-- /.name -->
-                                    </div>
-                                    <!-- /.user -->
-                                </div>
-                                <!-- /.photo -->
-                            </div>
-                            <!-- /.content -->
-                        </div>
-                        <!-- /.card -->
-                    </div>
-                    <!-- /.col-6 -->
+				<div class="col-6">
+					<div class="card">
+						<div class="content">
+							<div class="photo">
+								<img class="img-random" src="https://picsum.photos/800/500" alt="Random photo">
+								<div class="user d-flex gap-05">
+									<div class="microphone">
+										<i class="fa-solid fa-microphone-slash"></i>
+									</div>
+									<!-- /.microphone -->
+									<div class="name">Pinco pallo</div>
+									<!-- /.name -->
+								</div>
+								<!-- /.user -->
+							</div>
+							<!-- /.photo -->
+						</div>
+						<!-- /.content -->
+					</div>
+					<!-- /.card -->
+				</div>
+				<!-- /.col-6 -->
 
-                    <div class="col-6">
-                        <div class="card">
-                            <div class="content">
-                                <div class="photo">
-                                    <img class="img-random"
-                                        src="https://picsum.photos/800/500"
-                                        alt="Random photo">
-                                    <div class="user d-flex gap-05">
-                                        <div class="microphone">
-                                            <i
-                                                class="fa-solid fa-microphone-slash"></i>
-                                        </div>
-                                        <!-- /.microphone -->
-                                        <div class="name">
-                                            Pinco pallo
-                                        </div>
-                                        <!-- /.name -->
-                                    </div>
-                                    <!-- /.user -->
-                                </div>
-                                <!-- /.photo -->
-                            </div>
-                            <!-- /.content -->
-                        </div>
-                        <!-- /.card -->
-                    </div>
-                    <!-- /.col-6 -->
+				<div class="col-6">
+					<div class="card">
+						<div class="content">
+							<div class="photo">
+								<img class="img-random" src="https://picsum.photos/800/500" alt="Random photo">
+								<div class="user d-flex gap-05">
+									<div class="microphone">
+										<i class="fa-solid fa-microphone-slash"></i>
+									</div>
+									<!-- /.microphone -->
+									<div class="name">Pinco pallo</div>
+									<!-- /.name -->
+								</div>
+								<!-- /.user -->
+							</div>
+							<!-- /.photo -->
+						</div>
+						<!-- /.content -->
+					</div>
+					<!-- /.card -->
+				</div>
+				<!-- /.col-6 -->
 
-                    <div class="col-6">
-                        <div class="card">
-                            <div class="content">
-                                <div class="photo">
-                                    <img class="img-random"
-                                        src="https://picsum.photos/800/500"
-                                        alt="Random photo">
-                                    <div class="user d-flex gap-05">
-                                        <div class="microphone">
-                                            <i
-                                                class="fa-solid fa-microphone-slash"></i>
-                                        </div>
-                                        <!-- /.microphone -->
-                                        <div class="name">
-                                            Pinco pallo
-                                        </div>
-                                        <!-- /.name -->
-                                    </div>
-                                    <!-- /.user -->
-                                </div>
-                                <!-- /.photo -->
-                            </div>
-                            <!-- /.content -->
-                        </div>
-                        <!-- /.card -->
-                    </div>
-                    <!-- /.col-6 -->
+				<div class="col-6">
+					<div class="card">
+						<div class="content">
+							<div class="photo">
+								<img class="img-random" src="https://picsum.photos/800/500" alt="Random photo">
+								<div class="user d-flex gap-05">
+									<div class="microphone">
+										<i class="fa-solid fa-microphone-slash"></i>
+									</div>
+									<!-- /.microphone -->
+									<div class="name">Pinco pallo</div>
+									<!-- /.name -->
+								</div>
+								<!-- /.user -->
+							</div>
+							<!-- /.photo -->
+						</div>
+						<!-- /.content -->
+					</div>
+					<!-- /.card -->
+				</div>
+				<!-- /.col-6 -->
 
-                    <div class="col-6">
-                        <div class="card">
-                            <div class="content">
-                                <div class="photo">
-                                    <img class="img-random"
-                                        src="https://picsum.photos/800/500"
-                                        alt="Random photo">
-                                    <div class="user d-flex gap-05">
-                                        <div class="microphone">
-                                            <i
-                                                class="fa-solid fa-microphone-slash"></i>
-                                        </div>
-                                        <!-- /.microphone -->
-                                        <div class="name">
-                                            Pinco pallo
-                                        </div>
-                                        <!-- /.name -->
-                                    </div>
-                                    <!-- /.user -->
-                                </div>
-                                <!-- /.photo -->
-                            </div>
-                            <!-- /.content -->
-                        </div>
-                        <!-- /.card -->
-                    </div>
-                    <!-- /.col-6 -->
+				<div class="col-6">
+					<div class="card">
+						<div class="content">
+							<div class="photo">
+								<img class="img-random" src="https://picsum.photos/800/500" alt="Random photo">
+								<div class="user d-flex gap-05">
+									<div class="microphone">
+										<i class="fa-solid fa-microphone-slash"></i>
+									</div>
+									<!-- /.microphone -->
+									<div class="name">Pinco pallo</div>
+									<!-- /.name -->
+								</div>
+								<!-- /.user -->
+							</div>
+							<!-- /.photo -->
+						</div>
+						<!-- /.content -->
+					</div>
+					<!-- /.card -->
+				</div>
+				<!-- /.col-6 -->
 
-                    <div class="col-6">
-                        <div class="card">
-                            <div class="content">
-                                <div class="photo">
-                                    <img class="img-random"
-                                        src="https://picsum.photos/800/500"
-                                        alt="Random photo">
-                                    <div class="user d-flex gap-05">
-                                        <div class="microphone">
-                                            <i
-                                                class="fa-solid fa-microphone-slash"></i>
-                                        </div>
-                                        <!-- /.microphone -->
-                                        <div class="name">
-                                            Pinco pallo
-                                        </div>
-                                        <!-- /.name -->
-                                    </div>
-                                    <!-- /.user -->
-                                </div>
-                                <!-- /.photo -->
-                            </div>
-                            <!-- /.content -->
-                        </div>
-                        <!-- /.card -->
-                    </div>
-                    <!-- /.col-6 -->
+				<div class="col-6">
+					<div class="card">
+						<div class="content">
+							<div class="photo">
+								<img class="img-random" src="https://picsum.photos/800/500" alt="Random photo">
+								<div class="user d-flex gap-05">
+									<div class="microphone">
+										<i class="fa-solid fa-microphone-slash"></i>
+									</div>
+									<!-- /.microphone -->
+									<div class="name">Pinco pallo</div>
+									<!-- /.name -->
+								</div>
+								<!-- /.user -->
+							</div>
+							<!-- /.photo -->
+						</div>
+						<!-- /.content -->
+					</div>
+					<!-- /.card -->
+				</div>
+				<!-- /.col-6 -->
 
-                    <div class="col-6">
-                        <div class="card">
-                            <div class="content">
-                                <div class="photo">
-                                    <img class="img-random"
-                                        src="https://picsum.photos/800/500"
-                                        alt="Random photo">
-                                    <div class="user d-flex gap-05">
-                                        <div class="microphone">
-                                            <i
-                                                class="fa-solid fa-microphone-slash"></i>
-                                        </div>
-                                        <!-- /.microphone -->
-                                        <div class="name">
-                                            Pinco pallo
-                                        </div>
-                                        <!-- /.name -->
-                                    </div>
-                                    <!-- /.user -->
-                                </div>
-                                <!-- /.photo -->
-                            </div>
-                            <!-- /.content -->
-                        </div>
-                        <!-- /.card -->
-                    </div>
-                    <!-- /.col-6 -->
+				<div class="col-6">
+					<div class="card">
+						<div class="content">
+							<div class="photo">
+								<img class="img-random" src="https://picsum.photos/800/500" alt="Random photo">
+								<div class="user d-flex gap-05">
+									<div class="microphone">
+										<i class="fa-solid fa-microphone-slash"></i>
+									</div>
+									<!-- /.microphone -->
+									<div class="name">Pinco pallo</div>
+									<!-- /.name -->
+								</div>
+								<!-- /.user -->
+							</div>
+							<!-- /.photo -->
+						</div>
+						<!-- /.content -->
+					</div>
+					<!-- /.card -->
+				</div>
+				<!-- /.col-6 -->
 
-                    <div class="col-6">
-                        <div class="card">
-                            <div class="content">
-                                <div class="photo">
-                                    <img class="img-random"
-                                        src="https://picsum.photos/800/500"
-                                        alt="Random photo">
-                                    <div class="user d-flex gap-05">
-                                        <div class="microphone">
-                                            <i
-                                                class="fa-solid fa-microphone-slash"></i>
-                                        </div>
-                                        <!-- /.microphone -->
-                                        <div class="name">
-                                            Pinco pallo
-                                        </div>
-                                        <!-- /.name -->
-                                    </div>
-                                    <!-- /.user -->
-                                </div>
-                                <!-- /.photo -->
-                            </div>
-                            <!-- /.content -->
-                        </div>
-                        <!-- /.card -->
-                    </div>
-                    <!-- /.col-6 -->
+				<div class="col-6">
+					<div class="card">
+						<div class="content">
+							<div class="photo">
+								<img class="img-random" src="https://picsum.photos/800/500" alt="Random photo">
+								<div class="user d-flex gap-05">
+									<div class="microphone">
+										<i class="fa-solid fa-microphone-slash"></i>
+									</div>
+									<!-- /.microphone -->
+									<div class="name">Pinco pallo</div>
+									<!-- /.name -->
+								</div>
+								<!-- /.user -->
+							</div>
+							<!-- /.photo -->
+						</div>
+						<!-- /.content -->
+					</div>
+					<!-- /.card -->
+				</div>
+				<!-- /.col-6 -->
 
-                    <div class="col-6">
-                        <div class="card">
-                            <div class="content">
-                                <div class="photo">
-                                    <img class="img-random"
-                                        src="https://picsum.photos/800/500"
-                                        alt="Random photo">
-                                    <div class="user d-flex gap-05">
-                                        <div class="microphone">
-                                            <i
-                                                class="fa-solid fa-microphone-slash"></i>
-                                        </div>
-                                        <!-- /.microphone -->
-                                        <div class="name">
-                                            Pinco pallo
-                                        </div>
-                                        <!-- /.name -->
-                                    </div>
-                                    <!-- /.user -->
-                                </div>
-                                <!-- /.photo -->
-                            </div>
-                            <!-- /.content -->
-                        </div>
-                        <!-- /.card -->
-                    </div>
-                    <!-- /.col-6 -->
+				<div class="col-6">
+					<div class="card">
+						<div class="content">
+							<div class="photo">
+								<img class="img-random" src="https://picsum.photos/800/500" alt="Random photo">
+								<div class="user d-flex gap-05">
+									<div class="microphone">
+										<i class="fa-solid fa-microphone-slash"></i>
+									</div>
+									<!-- /.microphone -->
+									<div class="name">Pinco pallo</div>
+									<!-- /.name -->
+								</div>
+								<!-- /.user -->
+							</div>
+							<!-- /.photo -->
+						</div>
+						<!-- /.content -->
+					</div>
+					<!-- /.card -->
+				</div>
+				<!-- /.col-6 -->
 
-                    <div class="col-6">
-                        <div class="card">
-                            <div class="content">
-                                <div class="photo">
-                                    <img class="img-random"
-                                        src="https://picsum.photos/800/500"
-                                        alt="Random photo">
-                                    <div class="user d-flex gap-05">
-                                        <div class="microphone">
-                                            <i
-                                                class="fa-solid fa-microphone-slash"></i>
-                                        </div>
-                                        <!-- /.microphone -->
-                                        <div class="name">
-                                            Pinco pallo
-                                        </div>
-                                        <!-- /.name -->
-                                    </div>
-                                    <!-- /.user -->
-                                </div>
-                                <!-- /.photo -->
-                            </div>
-                            <!-- /.content -->
-                        </div>
-                        <!-- /.card -->
-                    </div>
-                    <!-- /.col-6 -->
+				<div class="col-6">
+					<div class="card">
+						<div class="content">
+							<div class="photo">
+								<img class="img-random" src="https://picsum.photos/800/500" alt="Random photo">
+								<div class="user d-flex gap-05">
+									<div class="microphone">
+										<i class="fa-solid fa-microphone-slash"></i>
+									</div>
+									<!-- /.microphone -->
+									<div class="name">Pinco pallo</div>
+									<!-- /.name -->
+								</div>
+								<!-- /.user -->
+							</div>
+							<!-- /.photo -->
+						</div>
+						<!-- /.content -->
+					</div>
+					<!-- /.card -->
+				</div>
+				<!-- /.col-6 -->
 
-                    <div class="col-6">
-                        <div class="card">
-                            <div class="content">
-                                <div class="photo">
-                                    <img class="img-random"
-                                        src="https://picsum.photos/800/500"
-                                        alt="Random photo">
-                                    <div class="user d-flex gap-05">
-                                        <div class="microphone">
-                                            <i
-                                                class="fa-solid fa-microphone-slash"></i>
-                                        </div>
-                                        <!-- /.microphone -->
-                                        <div class="name">
-                                            Pinco pallo
-                                        </div>
-                                        <!-- /.name -->
-                                    </div>
-                                    <!-- /.user -->
-                                </div>
-                                <!-- /.photo -->
-                            </div>
-                            <!-- /.content -->
-                        </div>
-                        <!-- /.card -->
-                    </div>
-                    <!-- /.col-6 -->
+				<div class="col-6">
+					<div class="card">
+						<div class="content">
+							<div class="photo">
+								<img class="img-random" src="https://picsum.photos/800/500" alt="Random photo">
+								<div class="user d-flex gap-05">
+									<div class="microphone">
+										<i class="fa-solid fa-microphone-slash"></i>
+									</div>
+									<!-- /.microphone -->
+									<div class="name">Pinco pallo</div>
+									<!-- /.name -->
+								</div>
+								<!-- /.user -->
+							</div>
+							<!-- /.photo -->
+						</div>
+						<!-- /.content -->
+					</div>
+					<!-- /.card -->
+				</div>
+				<!-- /.col-6 -->
 
-                    <div class="col-6">
-                        <div class="card">
-                            <div class="content">
-                                <div class="photo">
-                                    <img class="img-random"
-                                        src="https://picsum.photos/800/500"
-                                        alt="Random photo">
-                                    <div class="user d-flex gap-05">
-                                        <div class="microphone">
-                                            <i
-                                                class="fa-solid fa-microphone-slash"></i>
-                                        </div>
-                                        <!-- /.microphone -->
-                                        <div class="name">
-                                            Pinco pallo
-                                        </div>
-                                        <!-- /.name -->
-                                    </div>
-                                    <!-- /.user -->
-                                </div>
-                                <!-- /.photo -->
-                            </div>
-                            <!-- /.content -->
-                        </div>
-                        <!-- /.card -->
-                    </div>
-                    <!-- /.col-6 -->
+				<div class="col-6">
+					<div class="card">
+						<div class="content">
+							<div class="photo">
+								<img class="img-random" src="https://picsum.photos/800/500" alt="Random photo">
+								<div class="user d-flex gap-05">
+									<div class="microphone">
+										<i class="fa-solid fa-microphone-slash"></i>
+									</div>
+									<!-- /.microphone -->
+									<div class="name">Pinco pallo</div>
+									<!-- /.name -->
+								</div>
+								<!-- /.user -->
+							</div>
+							<!-- /.photo -->
+						</div>
+						<!-- /.content -->
+					</div>
+					<!-- /.card -->
+				</div>
+				<!-- /.col-6 -->
 
-                    <div class="col-6">
-                        <div class="card">
-                            <div class="content">
-                                <div class="photo">
-                                    <img class="img-random"
-                                        src="https://picsum.photos/800/500"
-                                        alt="Random photo">
-                                    <div class="user d-flex gap-05">
-                                        <div class="microphone">
-                                            <i
-                                                class="fa-solid fa-microphone-slash"></i>
-                                        </div>
-                                        <!-- /.microphone -->
-                                        <div class="name">
-                                            Pinco pallo
-                                        </div>
-                                        <!-- /.name -->
-                                    </div>
-                                    <!-- /.user -->
-                                </div>
-                                <!-- /.photo -->
-                            </div>
-                            <!-- /.content -->
-                        </div>
-                        <!-- /.card -->
-                    </div>
-                    <!-- /.col-6 -->
+				<div class="col-6">
+					<div class="card">
+						<div class="content">
+							<div class="photo">
+								<img class="img-random" src="https://picsum.photos/800/500" alt="Random photo">
+								<div class="user d-flex gap-05">
+									<div class="microphone">
+										<i class="fa-solid fa-microphone-slash"></i>
+									</div>
+									<!-- /.microphone -->
+									<div class="name">Pinco pallo</div>
+									<!-- /.name -->
+								</div>
+								<!-- /.user -->
+							</div>
+							<!-- /.photo -->
+						</div>
+						<!-- /.content -->
+					</div>
+					<!-- /.card -->
+				</div>
+				<!-- /.col-6 -->
 
-                    <div class="col-6">
-                        <div class="card">
-                            <div class="content">
-                                <div class="photo">
-                                    <img class="img-random"
-                                        src="https://picsum.photos/800/500"
-                                        alt="Random photo">
-                                    <div class="user d-flex gap-05">
-                                        <div class="microphone">
-                                            <i
-                                                class="fa-solid fa-microphone-slash"></i>
-                                        </div>
-                                        <!-- /.microphone -->
-                                        <div class="name">
-                                            Pinco pallo
-                                        </div>
-                                        <!-- /.name -->
-                                    </div>
-                                    <!-- /.user -->
-                                </div>
-                                <!-- /.photo -->
-                            </div>
-                            <!-- /.content -->
-                        </div>
-                        <!-- /.card -->
-                    </div>
-                    <!-- /.col-6 -->
+				<div class="col-6">
+					<div class="card">
+						<div class="content">
+							<div class="photo">
+								<img class="img-random" src="https://picsum.photos/800/500" alt="Random photo">
+								<div class="user d-flex gap-05">
+									<div class="microphone">
+										<i class="fa-solid fa-microphone-slash"></i>
+									</div>
+									<!-- /.microphone -->
+									<div class="name">Pinco pallo</div>
+									<!-- /.name -->
+								</div>
+								<!-- /.user -->
+							</div>
+							<!-- /.photo -->
+						</div>
+						<!-- /.content -->
+					</div>
+					<!-- /.card -->
+				</div>
+				<!-- /.col-6 -->
 
-                    <div class="col-6">
-                        <div class="card">
-                            <div class="content">
-                                <div class="photo">
-                                    <img class="img-random"
-                                        src="https://picsum.photos/800/500"
-                                        alt="Random photo">
-                                    <div class="user d-flex gap-05">
-                                        <div class="microphone">
-                                            <i
-                                                class="fa-solid fa-microphone-slash"></i>
-                                        </div>
-                                        <!-- /.microphone -->
-                                        <div class="name">
-                                            Pinco pallo
-                                        </div>
-                                        <!-- /.name -->
-                                    </div>
-                                    <!-- /.user -->
-                                </div>
-                                <!-- /.photo -->
-                            </div>
-                            <!-- /.content -->
-                        </div>
-                        <!-- /.card -->
-                    </div>
-                    <!-- /.col-6 -->
+				<div class="col-6">
+					<div class="card">
+						<div class="content">
+							<div class="photo">
+								<img class="img-random" src="https://picsum.photos/800/500" alt="Random photo">
+								<div class="user d-flex gap-05">
+									<div class="microphone">
+										<i class="fa-solid fa-microphone-slash"></i>
+									</div>
+									<!-- /.microphone -->
+									<div class="name">Pinco pallo</div>
+									<!-- /.name -->
+								</div>
+								<!-- /.user -->
+							</div>
+							<!-- /.photo -->
+						</div>
+						<!-- /.content -->
+					</div>
+					<!-- /.card -->
+				</div>
+				<!-- /.col-6 -->
 
-                    <div class="col-6">
-                        <div class="card">
-                            <div class="content">
-                                <div class="photo">
-                                    <img class="img-random"
-                                        src="https://picsum.photos/800/500"
-                                        alt="Random photo">
-                                    <div class="user d-flex gap-05">
-                                        <div class="microphone">
-                                            <i
-                                                class="fa-solid fa-microphone-slash"></i>
-                                        </div>
-                                        <!-- /.microphone -->
-                                        <div class="name">
-                                            Pinco pallo
-                                        </div>
-                                        <!-- /.name -->
-                                    </div>
-                                    <!-- /.user -->
-                                </div>
-                                <!-- /.photo -->
-                            </div>
-                            <!-- /.content -->
-                        </div>
-                        <!-- /.card -->
-                    </div>
-                    <!-- /.col-6 -->
+				<div class="col-6">
+					<div class="card">
+						<div class="content">
+							<div class="photo">
+								<img class="img-random" src="https://picsum.photos/800/500" alt="Random photo">
+								<div class="user d-flex gap-05">
+									<div class="microphone">
+										<i class="fa-solid fa-microphone-slash"></i>
+									</div>
+									<!-- /.microphone -->
+									<div class="name">Pinco pallo</div>
+									<!-- /.name -->
+								</div>
+								<!-- /.user -->
+							</div>
+							<!-- /.photo -->
+						</div>
+						<!-- /.content -->
+					</div>
+					<!-- /.card -->
+				</div>
+				<!-- /.col-6 -->
 
-                    <div class="col-6">
-                        <div class="card">
-                            <div class="content">
-                                <div class="photo">
-                                    <img class="img-random"
-                                        src="https://picsum.photos/800/500"
-                                        alt="Random photo">
-                                    <div class="user d-flex gap-05">
-                                        <div class="microphone">
-                                            <i
-                                                class="fa-solid fa-microphone-slash"></i>
-                                        </div>
-                                        <!-- /.microphone -->
-                                        <div class="name">
-                                            Pinco pallo
-                                        </div>
-                                        <!-- /.name -->
-                                    </div>
-                                    <!-- /.user -->
-                                </div>
-                                <!-- /.photo -->
-                            </div>
-                            <!-- /.content -->
-                        </div>
-                        <!-- /.card -->
-                    </div>
-                    <!-- /.col-6 -->
+				<div class="col-6">
+					<div class="card">
+						<div class="content">
+							<div class="photo">
+								<img class="img-random" src="https://picsum.photos/800/500" alt="Random photo">
+								<div class="user d-flex gap-05">
+									<div class="microphone">
+										<i class="fa-solid fa-microphone-slash"></i>
+									</div>
+									<!-- /.microphone -->
+									<div class="name">Pinco pallo</div>
+									<!-- /.name -->
+								</div>
+								<!-- /.user -->
+							</div>
+							<!-- /.photo -->
+						</div>
+						<!-- /.content -->
+					</div>
+					<!-- /.card -->
+				</div>
+				<!-- /.col-6 -->
 
-                    <div class="col-6">
-                        <div class="card">
-                            <div class="content">
-                                <div class="photo">
-                                    <img class="img-random"
-                                        src="https://picsum.photos/800/500"
-                                        alt="Random photo">
-                                    <div class="user d-flex gap-05">
-                                        <div class="microphone">
-                                            <i
-                                                class="fa-solid fa-microphone-slash"></i>
-                                        </div>
-                                        <!-- /.microphone -->
-                                        <div class="name">
-                                            Pinco pallo
-                                        </div>
-                                        <!-- /.name -->
-                                    </div>
-                                    <!-- /.user -->
-                                </div>
-                                <!-- /.photo -->
-                            </div>
-                            <!-- /.content -->
-                        </div>
-                        <!-- /.card -->
-                    </div>
-                    <!-- /.col-6 -->
+				<div class="col-6">
+					<div class="card">
+						<div class="content">
+							<div class="photo">
+								<img class="img-random" src="https://picsum.photos/800/500" alt="Random photo">
+								<div class="user d-flex gap-05">
+									<div class="microphone">
+										<i class="fa-solid fa-microphone-slash"></i>
+									</div>
+									<!-- /.microphone -->
+									<div class="name">Pinco pallo</div>
+									<!-- /.name -->
+								</div>
+								<!-- /.user -->
+							</div>
+							<!-- /.photo -->
+						</div>
+						<!-- /.content -->
+					</div>
+					<!-- /.card -->
+				</div>
+				<!-- /.col-6 -->
 
-                    <div class="col-6">
-                        <div class="card">
-                            <div class="content">
-                                <div class="photo">
-                                    <img class="img-random"
-                                        src="https://picsum.photos/800/500"
-                                        alt="Random photo">
-                                    <div class="user d-flex gap-05">
-                                        <div class="microphone">
-                                            <i
-                                                class="fa-solid fa-microphone-slash"></i>
-                                        </div>
-                                        <!-- /.microphone -->
-                                        <div class="name">
-                                            Pinco pallo
-                                        </div>
-                                        <!-- /.name -->
-                                    </div>
-                                    <!-- /.user -->
-                                </div>
-                                <!-- /.photo -->
-                            </div>
-                            <!-- /.content -->
-                        </div>
-                        <!-- /.card -->
-                    </div>
-                    <!-- /.col-6 -->
+				<div class="col-6">
+					<div class="card">
+						<div class="content">
+							<div class="photo">
+								<img class="img-random" src="https://picsum.photos/800/500" alt="Random photo">
+								<div class="user d-flex gap-05">
+									<div class="microphone">
+										<i class="fa-solid fa-microphone-slash"></i>
+									</div>
+									<!-- /.microphone -->
+									<div class="name">Pinco pallo</div>
+									<!-- /.name -->
+								</div>
+								<!-- /.user -->
+							</div>
+							<!-- /.photo -->
+						</div>
+						<!-- /.content -->
+					</div>
+					<!-- /.card -->
+				</div>
+				<!-- /.col-6 -->
 
-                    <div class="col-6">
-                        <div class="card">
-                            <div class="content">
-                                <div class="photo">
-                                    <img class="img-random"
-                                        src="https://picsum.photos/800/500"
-                                        alt="Random photo">
-                                    <div class="user d-flex gap-05">
-                                        <div class="microphone">
-                                            <i
-                                                class="fa-solid fa-microphone-slash"></i>
-                                        </div>
-                                        <!-- /.microphone -->
-                                        <div class="name">
-                                            Pinco pallo
-                                        </div>
-                                        <!-- /.name -->
-                                    </div>
-                                    <!-- /.user -->
-                                </div>
-                                <!-- /.photo -->
-                            </div>
-                            <!-- /.content -->
-                        </div>
-                        <!-- /.card -->
-                    </div>
-                    <!-- /.col-6 -->
+				<div class="col-6">
+					<div class="card">
+						<div class="content">
+							<div class="photo">
+								<img class="img-random" src="https://picsum.photos/800/500" alt="Random photo">
+								<div class="user d-flex gap-05">
+									<div class="microphone">
+										<i class="fa-solid fa-microphone-slash"></i>
+									</div>
+									<!-- /.microphone -->
+									<div class="name">Pinco pallo</div>
+									<!-- /.name -->
+								</div>
+								<!-- /.user -->
+							</div>
+							<!-- /.photo -->
+						</div>
+						<!-- /.content -->
+					</div>
+					<!-- /.card -->
+				</div>
+				<!-- /.col-6 -->
 
-                    <div class="col-6">
-                        <div class="card">
-                            <div class="content">
-                                <div class="photo">
-                                    <img class="img-random"
-                                        src="https://picsum.photos/800/500"
-                                        alt="Random photo">
-                                    <div class="user d-flex gap-05">
-                                        <div class="microphone">
-                                            <i
-                                                class="fa-solid fa-microphone-slash"></i>
-                                        </div>
-                                        <!-- /.microphone -->
-                                        <div class="name">
-                                            Pinco pallo
-                                        </div>
-                                        <!-- /.name -->
-                                    </div>
-                                    <!-- /.user -->
-                                </div>
-                                <!-- /.photo -->
-                            </div>
-                            <!-- /.content -->
-                        </div>
-                        <!-- /.card -->
-                    </div>
-                    <!-- /.col-6 -->
-                </div>
-                <!-- /.row -->
-            </div>
-            <!-- /.container -->
-        </main>
-        <!-- /#app-main -->
+				<div class="col-6">
+					<div class="card">
+						<div class="content">
+							<div class="photo">
+								<img class="img-random" src="https://picsum.photos/800/500" alt="Random photo">
+								<div class="user d-flex gap-05">
+									<div class="microphone">
+										<i class="fa-solid fa-microphone-slash"></i>
+									</div>
+									<!-- /.microphone -->
+									<div class="name">Pinco pallo</div>
+									<!-- /.name -->
+								</div>
+								<!-- /.user -->
+							</div>
+							<!-- /.photo -->
+						</div>
+						<!-- /.content -->
+					</div>
+					<!-- /.card -->
+				</div>
+				<!-- /.col-6 -->
+			</div>
+			<!-- /.row -->
+		</div>
+		<!-- /.container -->
+	</main>
+	<!-- /#app-main -->
 
-        <footer id="app-footer">
-            <div class="footer-left">
-                <div class="icon">
-                    <i class="fas fa-microphone fa-2x fa-fw"></i>
-                    <span>Muted</span>
-                </div>
-                <!-- /.icon -->
+	<footer id="app-footer">
+		<div class="footer-left">
+			<div class="icon">
+				<i class="fas fa-microphone fa-2x fa-fw"></i>
+				<span>Muted</span>
+			</div>
+			<!-- /.icon -->
 
-                <div class="icon">
-                    <i class="fa-solid fa-angle-up"></i>
-                </div>
-                <!-- /.icon -->
+			<div class="icon">
+				<i class="fa-solid fa-angle-up"></i>
+			</div>
+			<!-- /.icon -->
 
-                <div class="icon">
-                    <i class="fas fa-video fa-2x fa-fw"></i>
-                    <span>Mute</span>
-                </div>
-                <!-- /.icon -->
+			<div class="icon">
+				<i class="fas fa-video fa-2x fa-fw"></i>
+				<span>Mute</span>
+			</div>
+			<!-- /.icon -->
 
-                <div class="icon">
-                    <i class="fa-solid fa-angle-up"></i>
-                </div>
-                <!-- /.icon -->
-            </div>
-            <!-- /.footer-left -->
+			<div class="icon">
+				<i class="fa-solid fa-angle-up"></i>
+			</div>
+			<!-- /.icon -->
+		</div>
+		<!-- /.footer-left -->
 
-            <div class="footer-center">
-                <div class="icon">
-                    <i class="fas fa-user-plus fa-2x fa-fw"></i>
-                    <span>Invite</span>
-                </div>
-                <!-- /.icon -->
+		<div class="footer-center">
+			<div class="icon">
+				<i class="fas fa-user-plus fa-2x fa-fw"></i>
+				<span>Invite</span>
+			</div>
+			<!-- /.icon -->
 
-                <div class="icon">
-                    <i class="fas fa-user-group fa-2x fa-fw"></i>
-                    <span>Manage Partecipants</span>
-                </div>
-                <!-- /.icon -->
+			<div class="icon">
+				<i class="fas fa-user-group fa-2x fa-fw"></i>
+				<span>Manage Partecipants</span>
+			</div>
+			<!-- /.icon -->
 
-                <div class="icon">
-                    <i class="fas fa-chart-column fa-2x fa-fw"></i>
-                    <span>Polling</span>
-                </div>
-                <!-- /.icon -->
+			<div class="icon">
+				<i class="fas fa-chart-column fa-2x fa-fw"></i>
+				<span>Polling</span>
+			</div>
+			<!-- /.icon -->
 
-                <div class="icon">
-                    <i
-                        class="fas fa-share-from-square fa-2x fa-fw text-green">
-                    </i>
-                    <span>Share Screen</span>
-                </div>
-                <!-- /.icon -->
+			<div class="icon">
+				<i class="fas fa-share-from-square fa-2x fa-fw text-green"></i>
+				<span>Share Screen</span>
+			</div>
+			<!-- /.icon -->
 
-                <div class="icon">
-                    <i class="fa-solid fa-angle-up"></i>
-                </div>
-                <!-- /.icon -->
+			<div class="icon">
+				<i class="fa-solid fa-angle-up"></i>
+			</div>
+			<!-- /.icon -->
 
-                <div class="icon">
-                    <i class="fas fa-comment fa-2x fa-fw"></i>
-                    <span>Chat</span>
-                </div>
-                <!-- /.icon -->
+			<div class="icon">
+				<i class="fas fa-comment fa-2x fa-fw"></i>
+				<span>Chat</span>
+			</div>
+			<!-- /.icon -->
 
-                <div class="icon">
-                    <i class="fas fa-record-vinyl fa-2x fa-fw"></i>
-                    <span>Record</span>
-                </div>
-                <!-- /.icon -->
+			<div class="icon">
+				<i class="fas fa-record-vinyl fa-2x fa-fw"></i>
+				<span>Record</span>
+			</div>
+			<!-- /.icon -->
 
-                <div class="icon">
-                    <i class="fa-solid fa-border-all fa-2x fa-fw"></i>
-                    <span>Breakout Rooms</span>
-                </div>
-                <!-- /.icon -->
+			<div class="icon">
+				<i class="fa-solid fa-border-all fa-2x fa-fw"></i>
+				<span>Breakout Rooms</span>
+			</div>
+			<!-- /.icon -->
 
-                <div class="icon">
-                    <i class="fa-solid fa-ellipsis-h fa-2x fa-fw"></i>
-                    <span>More</span>
-                </div>
-                <!-- /.icon -->
-            </div>
-            <!-- /.footer-center -->
+			<div class="icon">
+				<i class="fa-solid fa-ellipsis-h fa-2x fa-fw"></i>
+				<span>More</span>
+			</div>
+			<!-- /.icon -->
+		</div>
+		<!-- /.footer-center -->
 
-            <div class="footer-right">
-                <button>
-                    End Meeting
-                </button>
-            </div>
-            <!-- /.footer-right -->
-        </footer>
-        <!-- /#app-footer -->
-    </body>
+		<div class="footer-right">
+			<button>End Meeting</button>
+		</div>
+		<!-- /.footer-right -->
+	</footer>
+	<!-- /#app-footer -->
+</body>
+
 </html>
