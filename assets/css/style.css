@@ -44,8 +44,8 @@ overflow-y-a {
   flex-wrap: wrap;
 }
 
-.col-7 {
-  width: calc(100% / 7);
+.col-6 {
+  width: calc(100% / 6);
 }
 
 .text-green {
@@ -125,7 +125,7 @@ select {
   background-color: var(--zoom-footer);
   color: var(--zoom-light);
   border: none;
-  rotate: 180deg;
+  transform: rotate(180deg);
 }
 
 .footer-left,
