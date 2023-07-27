@@ -1,18 +1,3 @@
-/* #region Utility Classes */
-.row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.col-6 {
-  width: calc(100% / 6);
-}
-
-.text-green {
-  color: var(--zoom-share);
-}
-/* #endregion Utility Classes */
-
 /* #region #app-header */
 #app-header {
   height: 50px;
@@ -35,7 +20,7 @@
 
 .speaker_view,
 .maximize {
-  background: #ffffff5e;
+  background: var(--zoom-maximaze);
   padding: 0.4rem;
   border-radius: 0.5rem;
 }
@@ -71,7 +56,7 @@
 }
 /* #endregion Main */
 
-/* Footer */
+/* #region #app-footer */
 #app-footer {
   display: flex;
   justify-content: space-between;
@@ -111,7 +96,8 @@ footer .icon > span {
 .footer-right button {
   height: 100%;
   padding: 0 1rem;
-  color: #f00;
-  background: #808080;
+  color: var(--zoom-footer-btn);
+  background: var(--zoom-bg-footer-btn);
   border: none;
 }
+/* #endregion #app-footer */

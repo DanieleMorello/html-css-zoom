@@ -1,0 +1,12 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-6 {
+  width: calc(100% / 6);
+}
+
+.text-green {
+  color: var(--zoom-share);
+}

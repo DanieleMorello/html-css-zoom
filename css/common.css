@@ -1,4 +1,3 @@
-/* #region Common */
 /* COLOR PALETTE */
 :root {
   --zoom-light: #f7f8f8;
@@ -7,6 +6,9 @@
   --zoom-footer: #222222;
   --zoom-share: #4ccb00;
   --zoom-user-bg: #0000005e;
+  --zoom-maximize: #ffffff5e;
+  --zoom-footer-btn: #f00;
+  --zoom-bg-footer-btn: #808080;
 }
 
 /* CSS RESET */
@@ -35,4 +37,3 @@ img {
 overflow-y-a {
   overflow-y: auto;
 }
-/* #endregion Common */
