@@ -101,3 +101,24 @@ footer .icon > span {
   border: none;
 }
 /* #endregion #app-footer */
+
+/* #region hover */
+.speaker_view > div:hover,
+.maximize:hover,
+.footer-left > .icon:hover,
+.footer-center > .icon:hover {
+  color: var(--zoom-hover);
+}
+
+.speaker_view > div:hover,
+.maximize:hover,
+.footer-left > .icon:hover,
+.footer-center > .icon:hover,
+.footer-right > button:hover {
+  cursor: pointer;
+}
+
+.footer-right > button:hover {
+  text-decoration: underline;
+}
+/* #endregion hover */
