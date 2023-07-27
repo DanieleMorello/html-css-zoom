@@ -1,0 +1,38 @@
+/* #region Common */
+/* COLOR PALETTE */
+:root {
+  --zoom-light: #f7f8f8;
+  --zoom-ligher: #ffffff;
+  --zoom-dark: #000000;
+  --zoom-footer: #222222;
+  --zoom-share: #4ccb00;
+  --zoom-user-bg: #0000005e;
+}
+
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--zoom-dark);
+  color: var(--zoom-light);
+}
+
+.container {
+  width: 90%;
+  max-width: 1152px;
+  margin: auto;
+  padding: 3rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+overflow-y-a {
+  overflow-y: auto;
+}
+/* #endregion Common */
